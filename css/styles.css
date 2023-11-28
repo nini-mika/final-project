@@ -21,7 +21,7 @@ header {
     background: #012426;
     /* flex: fixed; */
     z-index: 1;
-    
+
 }
 
 .header_ul {
@@ -59,11 +59,44 @@ header {
     border-width: 5px; */
     font-size: 40px;
     color: #05BCCA;
-    
+   
+
 }
 
 /* section 1 */
 
-.section1{
+.section1 {
     margin-top: 94px;
+    display: flex;
+    position: relative;
+    transform: translate( - 50% -50%);
+}
+
+.section1_div{
+    display: flex;
+    position: absolute;
+}
+h2 {
+    
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+span{
+    color: #FFF;
+}
+
+button{
+    display: flex;
+width: 36px;
+height: 24px;
+padding: 0px 6px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+background: #C46A2B;
 }
