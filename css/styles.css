@@ -1,32 +1,48 @@
 /* container */
 .container {
-    width: min(100%, 1440px);
+  max-width: 1440px;
+  width: 100%;
     /* display: flex; */
     /* align-items: center; */
-    margin: 0 auto;
+    margin:  auto;
 }
 
 /* header */
 header {
     display: flex;
+    /* margin: auto; */
     width: inherit;
+    max-width: inherit;
     padding: 16px 94px;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     align-items: center;
+    justify-content: space-between;
     background: #012426;
     /* flex: fixed; */
     z-index: 1;
 
 }
 
+.burger_icon{
+    font-size: 32px;
+    color: #05BCCA;
+    display: none;
+}
+
+.x_icon{
+    font-size: 32px;
+    color: #05BCCA;
+    display: none;
+}
 .header_ul {
 
     display: flex;
     /* justify-content: space-around; */
     column-gap: 72px;
+    
 
 }
 
@@ -43,20 +59,21 @@ header {
 .header_icon {
     /* display: flex; */
     font-size: 64px;
-    margin-inline: 288px;
+    /* margin-inline: 288px; */
 
 }
 
 .icon_div {
     display: flex;
     column-gap: 32px;
+    /* justify-content: space-between; */
 
 }
 
 .header_icons {
     /* border: #05BCCA;
     border-width: 5px; */
-    font-size: 40px;
+    font-size: 32px;
     color: #05BCCA;
 
 
@@ -64,9 +81,10 @@ header {
 }
 
 .last {
-    border-radius: 8px;
+    font-size: 5px;
+    border-radius:  8px;
     border: 2px solid #05BCCA;
-    padding: 8px;
+    padding: 1px 6px;
 }
 
 /* section 1 */
@@ -333,15 +351,15 @@ button {
 
 form {
     display: flex;
-
-
+    
 }
 
 .email_div {
     display: flex;
-    margin-top: 40px;
-    border-radius: 8px;
-    border: 1px solid #F5F5F5;
+margin-top: 40px;
+border: 1px solid #F5F5F5;
+border-radius: 8px;
+    
 
 }
 
@@ -352,6 +370,7 @@ form {
     /* padding-left: 8px; */
     /* justify-content: flex-end; */
     align-items: center;
+    justify-content: center;
     /* margin-top: 40px; */
     border-radius: 8px 0px 0px 8px;
     background: rgba(44, 66, 70, 0.80);
@@ -361,6 +380,7 @@ form {
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
+    border: none;
 
 }
 
@@ -370,7 +390,8 @@ form {
     width: 119px;
     padding: 15px 14px 14px 14px;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    border: none;
     border-radius: 0px 8px 8px 0px;
     background: #05BCCA;
     color: #FFF;
@@ -379,6 +400,7 @@ form {
     font-style: normal;
     font-weight: 700;
     line-height: 19px;
+   
     /* 118.75% */
     /* margin-top: 40px; */
 
