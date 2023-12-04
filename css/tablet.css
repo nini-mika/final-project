@@ -196,11 +196,182 @@
 
     /* section 2 */
 
-    .filter{
+    .filter {
         display: none;
     }
 
 
 
-    
+
+}
+
+/* contact page */
+
+@media (max-width: 765px) {
+
+    .contact_div {
+        margin-right: 60px;
+    }
+
+
+
+}
+
+@media (max-width: 710px) {
+
+    .contact_div {
+        margin-right: 40px;
+    }
+
+
+
+}
+
+
+@media (max-width: 680px) {
+
+    .social_p {
+        display: none;
+    }
+
+    .social {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+
+    .location {
+        font-size: 65px;
+
+    }
+
+    .div_1 {
+        width: 550px;
+        margin: auto;
+        /* justify-content: center;
+       align-items: center; */
+    }
+
+    .contact_div {
+        width: 550px;
+    }
+
+    iframe {
+        width: 215px;
+
+
+    }
+
+}
+
+@media (max-width: 610px) {
+
+    .social {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+
+    .location {
+        font-size: 40px;
+
+    }
+
+    .div_1 {
+        width: 480px;
+        margin: auto;
+        /* justify-content: center;
+       align-items: center; */
+    }
+
+    .contact_div {
+        width: 500px;
+
+
+    }
+
+    /* .contact_form{
+        width: 260px;
+        column-gap: 10px;
+    } */
+    iframe {
+        width: 170px;
+
+
+    }
+
+}
+
+
+@media (max-width: 610px) {
+
+    .contact_div {
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* flex-direction: column; */
+
+
+    }
+
+    .contact_txt {
+        font-size: 16px;
+        line-height: 24px;
+        margin: auto;
+        margin-left: 10px;
+    }
+
+    .div_1 {
+        flex-direction: row;
+       gap: 24px;
+        justify-content: center;
+       align-items: center;
+       width: 295px;
+    }
+
+
+    .social {
+
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .location {
+        width: 24px;
+        ;
+    }
+
+    .form_div {
+        flex-direction: column;
+        column-gap: 13px;
+
+    }
+
+    .contact_form,
+    .textarea,
+    .map_div {
+        width: 295px;
+    }
+
+    .map_div {
+        margin: auto;
+    }
+
+
+
+    iframe {
+        width: 295px;
+        margin-bottom: 32px;
+
+    }
+
+    .icons_div_contact {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .submit{
+        margin-bottom: 40px;
+    }
+
 }
