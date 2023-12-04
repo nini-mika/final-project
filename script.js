@@ -1,6 +1,6 @@
 let mobileMenue = document.querySelector(".header_nav");
-let burger = document.querySelector(".burger_icon")
-let xmark = document.querySelector(".x_icon")
+let burger = document.querySelector(".fa-bars")
+let xmark = document.querySelector(".fa-circle-xmark")
 
 burger.addEventListener("click", () => { mobileMenue.classList.add("show");
 burger.style.display = "none";
