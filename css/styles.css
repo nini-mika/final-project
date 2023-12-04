@@ -66,6 +66,10 @@ header {
 
 }
 
+.header_txt:hover{
+    color: #05BCCA;
+    text-shadow: 0 0 1em blue, 0 0 0.2em blue;
+}
 
 
 .icon_div {
@@ -84,6 +88,46 @@ header {
 
 
 }
+
+.header_icons{
+    animation-name: icons_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes  icons_animation{
+    0%{
+        transform:rotate(0deg) ;
+    }
+    50%{
+        transform:rotate(180deg) ;
+    }
+    100%{
+        transform:rotate(360deg) ;
+    }
+
+}
+
+.icons{
+    animation-name: icon_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite ;
+
+}
+
+@keyframes  icon_animation{
+    0%{
+        transform:rotate(0deg) ;
+    }
+    50%{
+        transform:rotate(-180deg) ;
+    }
+    100%{
+        transform:rotate(-360deg) ;
+    }
+
+}
+
 
 .last {
     font-size: 5px;
@@ -145,6 +189,10 @@ button {
     background: #C46A2B;
 
 
+}
+
+button:hover{
+    transform: rotate(20deg);
 }
 
 
@@ -226,6 +274,10 @@ button {
     padding: 96px 94px;
 }
 
+
+.figure1:hover {
+    box-shadow: 0px 0px 8px 4px rgba(5, 188, 202, 0.80);
+}
 
 .section3_title {
     display: flex;
@@ -690,7 +742,12 @@ footer {
     flex: 0 1 298px;
     height: 400px;
     background: #2C4246;
+    transition-duration: 2s;
 }
+
+.cards_figure:hover {
+    transform: scale(1.5);
+  }
 
 .fig_img {
     width: 100%;
