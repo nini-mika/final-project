@@ -12,38 +12,39 @@
         height: 40px;
     }
 
-    .icon_div{
+    .icon_div {
         column-gap: 16px;
     }
 
-    .header_icons{
+    .header_icons {
         font-size: 32px;
     }
 
-/* section 1 */
+    /* section 1 */
 
-.section1_div {
-    column-gap: 20px;
-}
+    .section1_div {
+        column-gap: 20px;
+    }
 
-.section1_title{
-    font-size: 28px;
-}
+    .section1_title {
+        font-size: 28px;
+    }
 
-    
+
     /* section 2 */
 
-    
 
-    .section2{
+
+    .section2 {
         padding: 32px 4px;
         /* height: 520px; */
     }
-    
-    .section2_div{
-       column-gap: 10px;
+
+    .section2_div {
+        column-gap: 10px;
 
     }
+
     .section2_divs {
         width: 170px;
         height: 160px;
@@ -53,9 +54,9 @@
         font-size: 16px;
         line-height: 24px;
 
-    
+
     }
-   
+
 
     /* section 3 */
 
@@ -65,26 +66,26 @@
     }
 }
 
-@media (max-width: 405px){
+@media (max-width: 405px) {
 
-/* section 4 */
+    /* section 4 */
 
-.email{
-    width: 200px;
+    .email {
+        width: 200px;
+    }
+
 }
 
-}
+
+
+@media (max-width: 365px) {
+
+
+    /* section 2 */
 
 
 
-@media (max-width: 365px){
-
-
-      /* section 2 */
-
-    
-
-      .section2{
+    .section2 {
         padding: 5px 1px;
         /* height: 520px; */
     }
@@ -93,6 +94,7 @@
         /* width: 190px; */
         height: 120px;
     }
+
     .section2_divs {
         width: 140px;
         height: 120px;
@@ -100,10 +102,65 @@
 
 
     /* section 4 */
-    
-    .email{
+
+    .email {
         width: 150px;
     }
-    
+
+}
+
+/* about page */
+
+@media (max-width: 462px) {
+
+    /* section 1 */
+    .catalog {
+        height: 40px;
+        padding: 8px;
     }
+
+    .catalog_txt {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    /* section 2 */
+    .txt {
+        display: none;
+    }
+
+    .Previous {
+        width: 60px;
+    }
+
+
+    .Next {
+        width: 60px;
+    }
+
+    .selling{
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 462px){
+
+    /* section 2 */
+   
+.section2_2{
+    padding: 32px 16px;
+}
+
+    .Previous {
+        width: 52px;
+    }
+
+
+    .Next {
+        width: 52px;
+    }
+}
 
