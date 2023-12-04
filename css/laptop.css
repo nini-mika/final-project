@@ -120,7 +120,42 @@
 
 }
 
+/* about page */
 
+@media (max-width: 1390px) {
+
+    /* section 2 */
+
+    .section2_2{
+        padding-inline: 30px;
+    }
+
+
+}
+
+@media (max-width: 1290px) {
+
+    /* section 2 */
+
+    .section2_2{
+        padding-inline: 5px;
+    }
+
+
+}
+
+@media (max-width: 1265px) {
+
+    /* section 2 */
+
+    .section2_2{
+        padding-inline: x;
+    }
+
+    
+
+
+}
 
 
 
